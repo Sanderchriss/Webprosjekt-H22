@@ -1,8 +1,32 @@
 body {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+#Page {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 header {
-  position: absolute;
-  align-items: center;
   border: 5px solid black;
+  height: 500px;
+  background-image: url("images/placeholder.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+}
+nav {
+  align-self: flex-end;
+}
+section {
+  border: 5px solid blue;
+}
+article {
+  border-bottom: 2px solid green;
+}
+footer {
+  background-color: black;
 }

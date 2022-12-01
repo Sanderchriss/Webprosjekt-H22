@@ -1,31 +1,57 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   font-family: sans-serif;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-#Page {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.Page {
+  background-color: gray;
+  border: 5px solid saddlebrown;
 }
 header {
   border: 5px solid black;
-  height: 500px;
-  background-image: url("images/placeholder.png");
+  height: 700px;
+  background-image: url("images/Landscape.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  justify-content: center;
+  background-size: 1450px 700px;
 }
-nav {
-  align-self: flex-end;
+.Logo {
+  position: absolute;
+  font-size: xx-large;
+  color: black;
 }
+.Logo:hover {
+  border: 1px solid grey;
+}
+.navLink {
+  position: absolute;
+  left: 60%;
+  top: 5%;
+}
+.navLink a {
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  background-color: dimgrey;
+  border-radius: 10px;
+}
+.navLink a:hover {
+  background-color: gray;
+}
+.News {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 section {
-  border: 5px solid blue;
+  background-color: aliceblue;
+  border: 2px solid black;
 }
 article {
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid black;
+}
+.minis {
+  display: inline-block;
+  text-align: center;
 }
 footer {
   background-color: black;

@@ -1,0 +1,847 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+/*
+  ************
+  Main-container
+  ************
+*/
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  background: #6ebce0;
+  animation: bg-anim 3s infinite alternate;
+  border: solid 2px red transparent;
+}
+
+.header {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.page-title {
+  width: 50%;
+  border: solid 1px red transparent;
+  height: 100px;
+}
+.title-box {
+  color: rgb(57, 57, 57);
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 5vw;
+  width: 50vw;
+  overflow: hidden;
+  margin-top: 10vw;
+  margin-left: 2vw;
+  border: solid 1px blue transparent;
+}
+
+.flip-word {
+  position: absolute;
+  width: 30vw;
+  height: 8vw;
+  overflow: hidden;
+  animation-delay: 1s;
+  background-color: #ff1c1c;
+  margin-top: -1vw;
+}
+
+.flip-word:hover {
+  animation: show 4s forwards;
+}
+
+.page__img {
+  width: 50vw;
+  margin-top: 6vw;
+  animation: y-axis 1.7s linear forwards infinite;
+}
+
+.Lum-tree-kangaroo {
+  width: 10vw;
+  margin-left: 35vw;
+  margin-top: 5vw;
+  animation: x-axis 3.98s linear forwards infinite;
+  z-index: 10;
+}
+.under-line {
+  width: 40vw;
+  height: 1.5vw;
+  background-color: rgb(57, 57, 57);
+  opacity: 50%;
+  margin-left: -50vw;
+  margin-top: 24vw;
+  z-index: 1;
+}
+
+/*Universal txt- font/size & color*/
+.article-txt-uni {
+  font-family: sans-serif;
+  font-size: 1.2;
+  color: rgb(57, 57, 57) e;
+}
+.content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+}
+
+/*
+  ************
+  Container-one
+  ************
+*/
+
+.container-one {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  border: solid white 2px transparent;
+}
+
+.prg-container-1,
+.prg-container-2 {
+  font-family: sans-serif;
+  font-size: 1.1vw;
+  color: rgb(57, 57, 57);
+  width: 50%;
+  padding: 2vw 2vw;
+}
+
+.lrn-m-btn {
+  width: 20vw;
+  height: 5vw;
+  font-family: sans-serif;
+  font-size: 2vw;
+  color: whitesmoke;
+  background-color: #ff1c1c;
+  border: transparent;
+  margin-left: -3vw;
+  margin-top: 2vw;
+}
+
+.lrn-m-btn:hover {
+  font-family: sans-serif;
+  font-size: 2vw;
+  color: rgb(70, 70, 70);
+  background-color: #eddd01;
+}
+
+/*
+  ************
+  Container-two
+  ************
+*/
+
+.container-two {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10%;
+  border: red 1px solid transparent;
+}
+
+.map-content {
+  width: 50%;
+  border: solid rgb(192, 76, 76) 1px transparent;
+  margin-top: -2vw;
+}
+
+.map-of-Australia {
+  width: 90%;
+}
+
+.live-signal {
+  width: 5vw;
+  height: 5vw;
+  margin-top: -30vw;
+  margin-left: 25vw;
+}
+
+.red-signal {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50vw;
+  background-color: #ff1c1c;
+  opacity: 50vw;
+  animation: circle ease-in-out 1.2s infinite;
+}
+
+.growing-plant {
+  width: 50%;
+  border: solid 1px blue transparent;
+  z-index: 5;
+  margin-top: -20vw;
+}
+
+.plant {
+  width: 17vw;
+  margin-top: 10vw;
+  margin-left: 10vw;
+}
+
+.plant:hover {
+  animation: growing-plant 1s forwards;
+}
+
+.presentation-box {
+  font-family: sans-serif;
+  font-size: 1.2vw;
+  width: 20vw;
+  color: rgb(57, 57, 57);
+  opacity: 60%;
+  width: 15vw;
+  padding: 10px 10px;
+  border-radius: 25px;
+  margin-left: 22vw;
+  margin-top: -20vw;
+}
+
+.hover-txt {
+  color: rgb(228, 218, 218);
+  font-size: 1vw;
+  margin-top: -5vw;
+  margin-left: 13vw;
+  z-index: 10;
+}
+
+.prnt-txt-1 {
+  font-family: sans-serif;
+  font-size: 1.2w;
+  color: rgb(57, 57, 57);
+  width: 15vw;
+}
+
+.prnt-txt-2 {
+  font-family: sans-serif;
+  font-size: 1.2w;
+  color: rgb(57, 57, 57);
+  width: 20vw;
+  margin-left: -30vw;
+}
+
+.prnt-txt-3 {
+  font-family: sans-serif;
+  font-size: 1.2w;
+  color: rgb(57, 57, 57);
+  width: 20vw;
+  margin-top: 10vw;
+  margin-left: -15vw;
+}
+
+/*Rain-drops*/
+.drop-one,
+.drop-two,
+.drop-three,
+.drop-four,
+.drop-five {
+  display: inline-flex;
+  background-color: white;
+  height: 1.5vw;
+  width: 0.3vw;
+  border-radius: 30px;
+  opacity: 0.8;
+  animation: rain-fall 1s infinite;
+  margin-left: 5vw;
+}
+
+.drop-one {
+  opacity: 0.6;
+  animation-duration: 0.6s;
+}
+
+.drop-two {
+  opacity: 0.5;
+  animation-duration: 0.3s;
+}
+
+.drop-three {
+  opacity: 0.6;
+  animation-duration: 0.8s;
+}
+
+.drop-four {
+  opacity: 0.7;
+  animation-duration: 0.9s;
+}
+
+.drop-five {
+  opacity: 0.8;
+  animation-duration: 0.45s;
+}
+
+/*
+  ************
+  Container-tree
+  ************
+*/
+
+.container-tree {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  border: 1px red solid transparent;
+  margin-top: 4%;
+}
+
+.dnt-content {
+  width: 50%;
+  border: yellow 1px solid transparent;
+  margin-top: 1%;
+}
+
+.fnd-title {
+  font-family: sans-serif;
+  font-size: 1.5vw;
+  color: rgb(75 75 75);
+  margin-left: 2vw;
+}
+
+.dnt-txt {
+  font-size: 1.2vw;
+  font-family: sans-serif;
+  color: rgb(57, 57, 57);
+  margin-left: 2vw;
+}
+
+.dnt-v-btn {
+  font-family: sans-serif;
+  background-color: rgb(239, 212, 153);
+  width: 7vw;
+  font-size: 1.6vw;
+  border: transparent;
+  border-radius: 25px;
+  margin-left: 1vw;
+  padding: 1vw 1vw;
+}
+
+.other-amnt-btn {
+  font-size: 1.4vw;
+  background-color: rgb(203, 250, 202);
+  border: transparent;
+  border-radius: 25px;
+  padding: 1vw 1vw;
+}
+
+.pay-vipps-btn {
+  font-family: sans-serif;
+  color: rgb(57, 57, 57);
+  width: 13vw;
+  height: 4vw;
+  background-color: #ec7e00;
+  border-radius: 15px;
+  margin-top: 2vw;
+  font-size: 2vw;
+  border: transparent;
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+}
+
+.pay-vipps-btn:hover,
+.pay-visa-btn:hover {
+  background-color: #04d16a;
+  color: rgb(63, 63, 63);
+}
+
+.pay-visa-btn {
+  font-size: 2vw;
+  width: 13vw;
+  height: 4vw;
+  border-radius: 15px;
+  color: rgb(57, 57, 57);
+  border: transparent;
+  background-color: #2d8fb6;
+}
+
+.tnk-u-msg {
+  font-family: sans-serif;
+  font-size: 1vw;
+  padding: 1.5vw 1.5vw;
+  margin-top: -2vw;
+}
+
+.vchr-content {
+  width: 50%;
+}
+
+.vchr-txt {
+  font-family: sans-serif;
+  color: rgb(57, 57, 57);
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  padding: 1.5vw 1.5vw;
+}
+
+.taxi-img {
+  width: 10vw;
+  animation: car-move 4s linear infinite;
+  margin-left: 25vw;
+  margin-bottom: -8.5vw;
+}
+
+.city-image {
+  width: 35vw;
+  margin-top: -5vw;
+  margin-left: 1vw;
+}
+
+.taxi-img:hover {
+  animation: drive 5s linear infinite;
+}
+
+.taxi-hvr-txt {
+  font-family: sans-serif;
+  font-size: 1vw;
+  color: rgb(57, 57, 57);
+  margin-top: -5vw;
+  margin-left: 1.9vw;
+}
+
+.fnd-trgt-txt {
+  font-family: sans-serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: rgb(57, 57, 57);
+  padding: 1vw 1vw;
+  text-transform: uppercase;
+}
+
+/*
+  ************
+  Container-four
+  ************
+*/
+
+.container-four {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background-color: whitesmoke;
+  opacity: 60%;
+  animation: bg-anim 3s infinite alternate;
+  animation: color 3s infinite alternate;
+  padding: 0 2%2%0 0;
+  margin-top: 4vw;
+}
+
+.amnt-goal,
+.amnt-rmn,
+.dnrs,
+.day-cnt {
+  font-family: sans-serif;
+  font-size: 3.5vw;
+  font-weight: lighter;
+  color: rgb(72, 72, 72);
+}
+
+.day-cnt-txt,
+.dnrs-txt,
+.rmn-txt,
+.goal-txt {
+  font-size: 1.2vw;
+}
+
+.mny-cnt::after {
+  font-family: sans-serif;
+  content: counter(count);
+  animation: money-counter 4s linear infinite alternate;
+  counter-reset: 0;
+}
+
+.dnr-cnt::after {
+  font-family: sans-serif;
+  content: counter(count);
+  animation: doner-counter 4s linear infinite alternate;
+  counter-reset: 0;
+}
+
+/*
+  ************
+  Container-five
+  ************
+*/
+
+.container-five {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 8vw;
+}
+
+.image-forest {
+  width: 100%;
+}
+
+.forest-art-title {
+  font-family: sans-serif;
+  color: rgb(72, 72, 72);
+  text-transform: uppercase;
+  font-size: 2.5vw;
+  margin-left: 15vw;
+  margin-top: 15vw;
+}
+
+.forest-article {
+  font-family: sans-serif;
+  font-size: 1.3vw;
+  color: rgb(72, 72, 72);
+  width: 60%;
+  margin-left: 15vw;
+  margin-top: 2vw;
+}
+
+/*
+  ************
+  Container-six
+  ************
+*/
+
+.container-six {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  opacity: 80vw;
+}
+
+.prf-content {
+  width: 100%;
+  margin-top: 3vw;
+  padding-left: 3vw;
+}
+
+.prf-title {
+  font-family: sans-serif;
+  font-size: 4vw;
+  font-weight: 300;
+}
+
+.prf-list {
+  font-family: sans-serif;
+  font-size: 1.2vw;
+  color: rgb(75 75 75);
+  list-style-type: none;
+  margin-left: 3vw;
+}
+
+.txt-bld {
+  font-weight: 600;
+  color: #22343b;
+}
+.prf-img {
+  width: 10w;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.img-of-Lumholtz {
+  width: 35vw;
+  margin-left: -10vw;
+  border-radius: 1% 30% 30% 100%;
+}
+
+.prf-img:hover {
+  animation: profile-img 2s linear alternate infinite;
+}
+
+.iucn-lst-cnt {
+  width: 50%;
+  margin-top: 10vw;
+}
+
+.iucn-tlt {
+  font-family: sans-serif;
+  color: rgb(57, 57, 57);
+  font-size: 1.5vw;
+  margin-top: -5vw;
+  margin-left: 2%;
+}
+.iucn-lst {
+  display: flex;
+  list-style-type: none;
+  padding: 4vw;
+}
+.iucn-txt {
+  font-family: sans-serif;
+  font-size: 1.6vw;
+  color: rgb(57, 57, 57);
+  width: 100%;
+  padding: 2vw 2vw;
+}
+
+.iucn-txt-nt {
+  font-family: sans-serif;
+  font-size: 4vw;
+  font-weight: 600;
+  color: rgb(45, 45, 45);
+  text-shadow: #ff1c1c;
+  animation: IUNC-warning 1s linear alternate infinite;
+  margin-top: -2vw;
+}
+.trnd-txt {
+  font-family: sans-serif;
+  margin-left: 6vw;
+}
+
+/*Animation*/
+@keyframes show {
+  0% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(300px);
+  }
+}
+
+@keyframes circle {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes bg-anim {
+  100% {
+    background: whitesmoke;
+  }
+}
+
+/*Profile-img*/
+@keyframes profile-img {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes IUNC-warning {
+  100% {
+    color: rgb(255, 5, 5);
+  }
+}
+
+/*Donation-money counter-animation*/
+@keyframes money-counter {
+  0% {
+    counter-increment: count 570;
+  }
+  10% {
+    counter-increment: count 560;
+  }
+  20% {
+    counter-increment: count 559;
+  }
+  30% {
+    counter-increment: count 558;
+  }
+  40% {
+    counter-increment: count 557;
+  }
+  50% {
+    counter-increment: count 556;
+  }
+  60% {
+    counter-increment: count 555;
+  }
+  70% {
+    counter-increment: count 554;
+  }
+  80% {
+    counter-increment: count 553;
+  }
+  90% {
+    counter-increment: count 552;
+  }
+  100% {
+    counter-increment: count 551;
+  }
+}
+
+/*Donation-doner counter-animation*/
+@keyframes doner-counter {
+  0% {
+    counter-increment: count 30;
+  }
+  10% {
+    counter-increment: count 35;
+  }
+  20% {
+    counter-increment: count 39;
+  }
+  30% {
+    counter-increment: count 48;
+  }
+  40% {
+    counter-increment: count 50;
+  }
+  50% {
+    counter-increment: count 56;
+  }
+  60% {
+    counter-increment: count 65;
+  }
+  70% {
+    counter-increment: count 70;
+  }
+  80% {
+    counter-increment: count 71;
+  }
+  90% {
+    counter-increment: count 75;
+  }
+  100% {
+    counter-increment: count 79;
+  }
+}
+
+/*Animated plant*/
+@keyframes growing-plant {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1.8);
+  }
+}
+
+/* Text animation*/
+@keyframes fact-txt-two-color {
+  100% {
+    color: rgb(0, 0, 0);
+  }
+}
+
+/*Rain-animation*/
+@keyframes rain-fall {
+  0% {
+    transform: translate(0, -30vw);
+  }
+  100% {
+    transform: translate(0, -10vw);
+  }
+}
+
+/*kangeroo-animation x-axis*/
+@keyframes x-axis {
+  0% {
+    transform: translateX(0vw);
+  }
+  25% {
+    transform: translateX(-10vw);
+  }
+  50% {
+    transform: translateX(-20vw);
+  }
+
+  75% {
+    transform: translateX(-30vw);
+  }
+
+  100% {
+    transform: translateX(-40vw);
+  }
+  125% {
+    transform: translateX(-50vw);
+  }
+  150% {
+    transform: translateX(-60vw);
+  }
+  175% {
+    transform: translateX(-70vw);
+  }
+  200% {
+    transform: translateX(-80vw);
+  }
+}
+
+/*kangeroo-animation y-axis*/
+@keyframes y-axis {
+  0% {
+    transform: translateY(-4vw);
+  }
+  25% {
+    transform: translateY(4vw);
+  }
+  50% {
+    transform: translateY(-4vw);
+  }
+
+  75% {
+    transform: translateY(4vw);
+  }
+
+  100% {
+    transform: translateY(-4vw);
+  }
+  125% {
+    transform: translateY(4vw);
+  }
+  150% {
+    transform: translateY(-4vw);
+  }
+  175% {
+    transform: translateY(4vw);
+  }
+  200% {
+    transform: translateY(-4vw);
+  }
+}
+
+/*car animation*/
+@keyframes drive {
+  from {
+    transform: translateX(-1vw);
+  }
+
+  to {
+    transform: translateX(-25vw);
+  }
+}
+/* car animation - y-axis*/
+@keyframes car-move {
+  0% {
+    transform: translateY(-0.5vw);
+  }
+  50% {
+    transform: translateY(0vw);
+  }
+  80% {
+    transform: translateY(-0.5vw);
+  }
+  100% {
+    transform: translateY(0vw);
+  }
+}

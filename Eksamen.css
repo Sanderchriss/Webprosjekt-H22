@@ -1,0 +1,81 @@
+body{
+    background-color: antiquewhite;
+}
+/* Tittelen for selve siden */
+.Box1{
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 2px;
+    border: solid;
+    display: inline-block;
+    position: relative;
+    left: 440px;
+     animation: move 8s infinite;
+    animation-timing-function: ease-in-out;
+}
+/* Animasjon til tittelen */
+@keyframes move{
+    from {left: 0px;}
+    to {left: 800px;}
+}
+
+/* Bilde til selve turist siden */
+.MyImage1{
+    padding-bottom: 20px;
+    margin-left: 1114px;
+    width: 120px;
+    
+}
+/* Tittel for turist nummer 1 */
+.Box2{
+    position: relative;
+    left: 550px;
+}
+/* Bildet for turist sted nummer 1 */
+.MyImage2{
+    margin-left: 350px;
+    padding-bottom: 30px;
+}
+/* Teksten for turist sted nummer 1 */
+.text1{
+    font-family: sans-serif;
+    border: solid;
+    margin-bottom: 200px;
+}
+/* Tittel for turist sted nummer 2 */
+.Box3{
+    position: relative;
+    left: 510px;
+    top: 15px;
+    font-size: x-large;
+    
+}
+/* Bildet for turist sted nummer 2 */
+.MyImage3{
+    margin-left: 350px;
+}
+/* Tekst for turist sted nummer 2 */
+.text2{
+    font-family: sans-serif;
+    border: solid;
+}
+/* Tittel for turist sted nummer 3 */
+.Box4{
+    position: relative;
+    left: 510px;
+    top: 120px;
+    font-size: x-large;
+}
+/* Bildet for turist sted nummer 3 */ 
+.MyImage4{
+    margin-left: 350px;
+    padding-top: 100px;
+}
+/* Tekst for sted nummer 3 */
+.text3{
+    font-family: sans-serif;
+    border: solid;
+}
+
+

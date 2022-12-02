@@ -5,19 +5,25 @@ body {
 }
 .Page {
   background-color: gray;
-  border: 5px solid saddlebrown;
+  border: 3px solid black;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 header {
   border: 5px solid black;
   height: 700px;
   background-image: url("images/Landscape.jpg");
   background-repeat: no-repeat;
-  background-size: 1450px 700px;
+  background-size: 100%;
 }
 .Logo {
+  display: flex;
   position: absolute;
   font-size: xx-large;
-  color: black;
+  align-items: center;
+  justify-content: center;
 }
 .Logo:hover {
   border: 1px solid grey;
@@ -29,8 +35,7 @@ header {
 }
 .navLink a {
   padding: 15px;
-  text-decoration: none;
-  color: black;
+
   background-color: dimgrey;
   border-radius: 10px;
 }
@@ -42,17 +47,45 @@ header {
   padding-right: 10%;
 }
 
+.News1 p {
+  position: absolute;
+  text-align: ;
+  line-height: 70px;
+  font-size: larger;
+}
+.News2 {
+  text-align: right;
+}
+.News2 p {
+  position: absolute;
+  text-align: start;
+  line-height: 70px;
+  font-size: larger;
+}
+.News3 {
+  text-align: right;
+}
+.News3 p {
+  position: absolute;
+  text-align: start;
+  line-height: 70px;
+  font-size: larger;
+}
+h3 {
+  background-color: cornflowerblue;
+}
+
 section {
   background-color: aliceblue;
   border: 2px solid black;
 }
 article {
-  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 .minis {
   display: inline-block;
   text-align: center;
 }
-footer {
-  background-color: black;
+.minis:hover {
+  border: 1px solid darkgray;
 }

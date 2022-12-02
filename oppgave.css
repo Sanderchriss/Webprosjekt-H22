@@ -1,10 +1,13 @@
-body{
-background-color: lightblue;
+
+/* ccs-en på oppgaven*/
+
+body{  
+background-color: lightblue;         /*bakgrunnsfargen på siden*/
 
 }
-
-
-.custom-container{
+               
+/* teksten redigering*/
+.custom-container{     
 text-align: left;
 margin:0%;
 box-sizing: border-box;
@@ -22,16 +25,16 @@ width:8in;
 font-family: sans-serif;
 }
 
-p{
-
+p{      /*paragraf redigering*/
+ 
 font-family: sans-serif;
 }
 
-h1{
+h1{    /*hovedoverskrift redigering*/
 text-align: center;
 }
 
-img{
+img{    /*bilde redigering*/
     height:60%;
     width:24%;
     border: 4px solid black;
@@ -39,7 +42,7 @@ img{
 }
 
 
-.Right{
+.Right{   /* bilde redigering*/
     height: 30%;
     width:24%;
     float: right;
@@ -51,7 +54,7 @@ img{
    
 }
 
-.Center{
+.Center{    /*bilde redigering*/
     position: absolute;
     top: 56%;
     left: 50%;
@@ -61,7 +64,7 @@ img{
     width: 24%;
     
 }
-.container {
+.container {    /*animasjon med overlay på bilde*/
     position: absolute;
     width: 53%;
     max-width: 22%;
@@ -86,8 +89,9 @@ img{
     width: 100%;
     transition: .6s ease;
     opacity: 0;
-    color: blue;
+    color: Black;
     font-size: 151%;
+    font-family: Arial;
     padding: 6%;
     text-align: center;
    
@@ -95,3 +99,4 @@ img{
 .container:hover .overlay{
     opacity: 1;
 }
+

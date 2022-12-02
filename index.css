@@ -1,0 +1,341 @@
+/* Ramme */
+.container {
+border: 2px whitesmoke;
+background-color: whitesmoke;
+width: 1024px;
+height: 1300px;
+position: relative;
+margin-right: auto;
+margin-left: auto;
+padding: 10px;
+}
+
+/* Png av kart */
+.kart {
+    position: absolute;
+    display: block;
+    margin-left: 40%;
+    margin-right: 70%;
+    margin-top: 60%;
+    margin-bottom: auto;
+    height: auto;
+    width: 50%;
+}
+
+/* Png av kenguru */
+.kenguru {
+    position: absolute;
+    display: block;
+    margin-left: 14%;
+    margin-right: auto;
+    margin-top: 23%;
+    margin-bottom: 10%;
+    height: 10%;
+    width: auto;
+}
+
+/* Png av koala */
+.koala {
+    position: absolute;
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: 23%;
+    margin-bottom: 10%;
+    height: 10%;
+    width: auto;
+}
+
+/* Png av saltvanns-krokodille */
+.krokodille {
+    position: absolute;
+    display: block;
+    margin-left: 45%;
+    margin-right: auto;
+    margin-top: 23%;
+    margin-bottom: 10%;
+    height: 15%;
+    width: auto;
+}
+
+/* Png av vombat */
+.wombat {
+    position: absolute;
+    display: block;
+    margin-left: 73%;
+    margin-right: auto;
+    margin-top: 25%;
+    margin-bottom: 10%;
+    height: 10%;
+    width: auto;
+}
+
+/* "Tittel" */
+.h1 {
+    position: absolute;
+    display: block;
+    margin-left: 27%;
+    margin-right: auto;
+    font-size: 120%;
+    color: rgb(18, 125, 18);
+    animation-name: h1;
+    animation-duration: 6s;
+
+}
+
+/* Animasjon på tittel */
+@keyframes h1 {
+    from {color: rgba(116, 174, 116, 0.659);}
+    to {color: darkgreen;}
+}
+
+/* Funfacts om kenguru */
+.h2 {
+    position: absolute;
+    display: block;
+    margin-left: 6%;
+    margin-right: auto;
+    margin-top: 35%;
+    margin-bottom: auto;
+    height: 10%;
+    width: 20%;
+    text-align: left;
+    font-weight: bold; 
+}
+
+/* Funfacts om koala */
+.h3 {
+    position: absolute;
+    display: block;
+    margin-left: 28%;
+    margin-right: auto;
+    margin-top: 35%;
+    margin-bottom: auto;
+    height: 10%;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+/* Funfacts om saltvanns-krokodille */
+.h4 {
+    position: absolute;
+    display: block;
+    margin-left: 48%;
+    margin-right: auto;
+    margin-top: 35%;
+    margin-bottom: auto;
+    height: 10%;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Funfacts om vombat */
+.h5 {
+    position: absolute;
+    display: block;
+    margin-left: 72%;
+    margin-right: auto;
+    margin-top: 35%;
+    margin-bottom: auto;
+    height: 10%;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+/* Snakkeboble til kenguru */
+.snakkeboble1 {
+    position: absolute;
+    display: block;
+    margin-left: 1%;
+    margin-right: auto;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    height: 13%;
+    width: auto;
+
+}
+
+/* Snakkeboble til koala */
+.snakkeboble2 {
+    position: absolute;
+    display: block;
+    margin-left: 18%;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    height: 13%;
+    width: auto;
+}
+
+/* Snakkeboble til saltvanns-krokodille */
+.snakkeboble3 {
+    position: absolute;
+    display: block;
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    height: 13%;
+    width: auto;
+}
+
+/* Snakkeboble til vombat */
+.snakkeboble4 {
+    position: absolute;
+    display: block;
+    margin-left: 77%;
+    margin-right: auto;
+    margin-top: 12%;
+    margin-bottom: 10%;
+    height: 13%;
+    width: auto;
+}
+
+/* Tekst til snakkeboble - kenguru */
+.snakkeboble-tekst1 {
+    position: absolute;
+    display: block;
+    margin-left: 4%;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 10%;
+    font-size: 100%;
+    font-family: sans-serif;
+    color: black;
+}
+
+/* Tekst til snakkeboble - koala */
+.snakkeboble-tekst2 {
+    position: absolute;
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 12%;
+    margin-bottom: 10%;
+    width: 12%;
+    font-size: 100%;
+    font-family: sans-serif;
+    color: black;
+}
+
+/* Tekst til snakkeboble - saltvanns-krokodille */
+.snakkeboble-tekst3 {
+    position: absolute;
+    display: block;
+    margin-left: 54%;
+    margin-right: auto;
+    margin-top: 18%;
+    margin-bottom: 10%;
+    width: 12%;
+    font-size: 100%;
+    font-family: sans-serif;
+    color: black;
+}
+
+/* Tekst til snakkeboble - vombat */
+.snakkeboble-tekst4 {
+    position: absolute;
+    display: block;
+    margin-left: 80%;
+    margin-right: auto;
+    margin-top: 16%;
+    margin-bottom: 10%;
+    width: 12%;
+    font-size: 100%;
+    font-family: sans-serif;
+    color: black; 
+}
+
+/* Bakgrunn for donasjon */
+.sirkel {
+    position: absolute;
+    display: block;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 70%;
+    margin-bottom: 60%;
+    height: 10%;
+    width: 30%;
+    background-color: lightblue;
+    border-radius: 20%;
+    
+}
+
+/* Link til donasjons-side */
+.link {
+    position: absolute;
+    display: block;
+    margin-left: 8%;
+    margin-right: auto;
+    margin-top: 72%;
+    margin-bottom: auto;
+    font-size: 170%;
+    width: 24%;
+    text-align: center;
+    font-family: sans-serif;
+    color: green;
+}
+
+.link2 {
+    position: absolute;
+    display: block;
+    margin-left: 11%;
+    margin-right: auto;
+    margin-top: 79%;
+    margin-bottom: auto;
+    font-size: 100%;
+    width: 24%;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+
+/* Visste du at?*/
+.funfact {
+    position: absolute;
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 105%;
+    margin-bottom: auto;
+    font-size: 160%;
+    font-family: sans-serif;
+    font-weight: bold;
+    animation: spin-tekst 4s infinite;
+    animation-iteration-count: 1; 
+    color: rgb(34, 33, 33);
+    text-shadow: 1px 0 rgba(93, 140, 22, 0.58);
+    
+    
+}
+
+/* Snurrende "visste du at?" */
+@keyframes spin-tekst {
+    from {
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+/* Funfact */
+.funfact1 {
+    position: absolute;
+    display: block;
+    margin-left: 24%;
+    margin-right: auto;
+    margin-top: 110%;
+    margin-bottom: auto;
+    font-size: 115%;
+    width: 50%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
